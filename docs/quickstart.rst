@@ -56,7 +56,13 @@ Open a new file `index.php` and enter the following code::
 
 .. [#f5] Creates new component 'HelloWorld' and adds it into Application Layout.
 
-You should see the following output:
+
+Run the code with the following command::
+
+   php -S localhost:8000 index.php
+
+
+You should then see in the browser, at the address localhost:8000, the following output:
 
 .. image:: images/helloworld.png
 
